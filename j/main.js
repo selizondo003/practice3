@@ -33,6 +33,11 @@ document.addEventListener('click', (e) => {
     dot.style.transform += `translateX(${e.clientX - 25}px)`;
     dot.style.opacity = 1;
 }, false);
+
+dot.addEventListener('click', (e) => {
+    dot.style.backgroundColor = "purple";
+})
+
      
 
 
