@@ -36,8 +36,13 @@ document.addEventListener('click', (e) => {
 
 dot.addEventListener('click', (e) => {
     dot.style.backgroundColor = "purple";
-})
+    dot.style.width = "400px";
+    dot.style.height = "300px"
+    dot.classList.toggle('expand');
+    console.log('clicked');
+   
 
+})
      
 
 
